@@ -8,6 +8,19 @@
 ## 基本使用
 
 
+    implementation 'com.ccx1:EHorizontalSelectedView:1.0.0'
+
+如果报错请加入
+
+    allprojects {
+        repositories {g
+            google()
+            jcenter()
+            maven {url 'https://dl.bintray.com/ci250454344/EHorizontalSelectedView'}
+        }
+    }
+
+使用方式
 
     EHorizontalSelectedView horizontalSelectedView = (EHorizontalSelectedView) findViewById(R.id.hsv);
     List<String>            objects                = new ArrayList<>();
