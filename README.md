@@ -13,7 +13,7 @@
 如果报错请加入
 
     allprojects {
-        repositories {g
+        repositories {
             google()
             jcenter()
             maven {url 'https://dl.bintray.com/ci250454344/EHorizontalSelectedView'}
